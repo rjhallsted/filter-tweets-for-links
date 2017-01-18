@@ -4,7 +4,7 @@ require 'json'
 require 'pp'
 
 keys = YAML::load_file("keys.yml")
-username = "vanschneider"
+username = "rjhallsted"
 
 # Exchange your oauth_token and oauth_token_secret for an AccessToken instance.
 def prepare_access_token(keys)
